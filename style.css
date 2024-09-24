@@ -1,0 +1,47 @@
+
+body {
+  background-color: rgb(65, 65, 115);
+  font-size: larger;
+  font-family: sans-serif;
+    }
+     
+    img {
+
+        display: block;
+        max-width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav li { 
+       display: inline-block;
+    }
+
+nav a {
+
+display: block;
+color:white;
+
+
+}
+
+nav a:hover { background-color: rgb(228, 84, 17);
+transform: scale(1);
+}
+
+h1 {
+    background-color: rgb(227, 145, 23);
+    padding: 0,5em;
+    border: 0.1em solid;
+     
+}
+
+nav ul {
+display: flex;
+justify-content: space-between;
+}
+
+li{ 
+margin-right: 2em;
+}
+
